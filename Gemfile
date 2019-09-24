@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
+gem 'chromedriver-helper'
 gem 'cucumber'
 gem 'httparty'
-gem 'rspec'
 gem 'pry'
+gem 'rspec'
 gem 'watir'
-gem 'chromedriver-helper'
