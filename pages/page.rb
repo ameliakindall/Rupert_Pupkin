@@ -5,6 +5,6 @@ class Page
   end
 
   def open(path)
-    @browser.goto("#{BASE_URL}/#{path}")
+    @browser.goto("#{BASE_URL}/index.php?#{path}")
   end
 end
