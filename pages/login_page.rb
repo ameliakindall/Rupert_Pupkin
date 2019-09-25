@@ -2,8 +2,14 @@
 
 # This pageobject file defines methods for the log in form
 class LoginPage < Page
+  attr_reader :path
+
+  def initialize
+    @path = '/index.php?controller=authentication&back=my-account'
+  end
+
   def login_as(username, password)
-    user_field.set(username)
+    username_field.set(username)
     password_field.set(password)
     submit_button.click
   end
