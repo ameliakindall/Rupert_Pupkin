@@ -1,3 +1,5 @@
 *.DS_Store
 /test_results/*
 /features/support/config.yml
+.idea/
+Rupert_Pupkin.iml
